@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="hero_bringup" type="multi_teleop.py" name="multi_teleop" output="screen">
+        <param name="default_pwm" value="2300"/>
+    </node>
+</launch>
