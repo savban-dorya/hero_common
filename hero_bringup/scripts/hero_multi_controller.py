@@ -9,7 +9,7 @@ Fully functional centralized controller for multiple HeRo robots.
 
 This is a complete implementation with all features enabled.
 """
-
+#ignore
 import rospy
 import numpy as np
 import math
