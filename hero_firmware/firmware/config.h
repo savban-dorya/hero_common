@@ -37,9 +37,9 @@
 #define ROBOT_ID "0"
 
 /* WIFI Configuration - use web configuration */
-#define ROS_MASTER_IP "10.42.0.1" /* ROS Master IP - Config as a hotspot by default */
-#define WIFI_SSID "hero_network"  /* Network name */
-#define WIFI_PASSWD "s3cr3tp4ss"  /* Network password */
+#define ROS_MASTER_IP "192.168.1.169" /* ROS Master IP - Config as a hotspot by default */
+#define WIFI_SSID "165KingWest"  /* Network name */
+#define WIFI_PASSWD "165Budds"  /* Network password */
 #define ROS_MASTER_PORT 11411     /* ROS Port */
 bool default_config = true;
 
