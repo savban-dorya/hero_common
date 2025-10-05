@@ -1,7 +1,61 @@
-<!-- Use linear speed 0.2 m/s and rotation speed 0.040 rads/s -->
 <launch>
-    <arg name="id" default="0" />
-    <node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="teleop_twist_keyboard" output="screen">
-        <remap from="/cmd_vel" to="/hero_$(arg id)/velocity_controller/cmd_vel"/>
-    </node>
+    <group ns="hero_0">
+        <node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="teleop_twist_keyboard_0" output="screen">
+            <remap from="/cmd_vel" to="/hero_0/velocity_controller/cmd_vel"/>
+        </node>
+    </group>
+
+    <group ns="hero_1">
+        <node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="teleop_twist_keyboard_1" output="screen">
+            <remap from="/cmd_vel" to="/hero_1/velocity_controller/cmd_vel"/>
+        </node>
+    </group>
+
+    <group ns="hero_2">
+        <node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="teleop_twist_keyboard_2" output="screen">
+            <remap from="/cmd_vel" to="/hero_2/velocity_controller/cmd_vel"/>
+        </node>
+    </group>
+
+    <group ns="hero_3">
+        <node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="teleop_twist_keyboard_3" output="screen">
+            <remap from="/cmd_vel" to="/hero_3/velocity_controller/cmd_vel"/>
+        </node>
+    </group>
+
+    <group ns="hero_4">
+        <node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="teleop_twist_keyboard_4" output="screen">
+            <remap from="/cmd_vel" to="/hero_4/velocity_controller/cmd_vel"/>
+        </node>
+    </group>
+
+    <group ns="hero_5">
+        <node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="teleop_twist_keyboard_5" output="screen">
+            <remap from="/cmd_vel" to="/hero_5/velocity_controller/cmd_vel"/>
+        </node>
+    </group>
+
+    <group ns="hero_6">
+        <node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="teleop_twist_keyboard_6" output="screen">
+            <remap from="/cmd_vel" to="/hero_6/velocity_controller/cmd_vel"/>
+        </node>
+    </group>
+
+    <group ns="hero_7">
+        <node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="teleop_twist_keyboard_7" output="screen">
+            <remap from="/cmd_vel" to="/hero_7/velocity_controller/cmd_vel"/>
+        </node>
+    </group>
+
+    <group ns="hero_8">
+        <node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="teleop_twist_keyboard_8" output="screen">
+            <remap from="/cmd_vel" to="/hero_8/velocity_controller/cmd_vel"/>
+        </node>
+    </group>
+
+    <group ns="hero_9">
+        <node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="teleop_twist_keyboard_9" output="screen">
+            <remap from="/cmd_vel" to="/hero_9/velocity_controller/cmd_vel"/>
+        </node>
+    </group>
 </launch>
