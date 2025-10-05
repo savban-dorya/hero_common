@@ -67,7 +67,7 @@ RUN cd $CATKIN_DIR/src \
     && catkin build" 
 
 RUN cd $CATKIN_DIR/src \
-    && git clone --depth 1 --branch noetic-devel https://github.com/verlab/hero_common.git \
+    && git clone --depth 1 --branch noetic-devel https://github.com/savban-dorya/hero_common.git \
     && cd $CATKIN_DIR \
     && /bin/bash -c "source /opt/ros/${ROS_DISTRO}/setup.bash \
     # && rosdep install --from-paths src --ignore-src -r -y \
